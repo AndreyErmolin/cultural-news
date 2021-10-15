@@ -1,0 +1,40 @@
+.header {
+    min-height: 160px;
+
+}
+
+.visually-hidden {
+    margin: auto;
+}
+
+.header-nav {
+    width: 80%;
+    min-height: 140px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.site-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+}
+
+.site-navigation-item-link {
+    font-size: 16px;
+}
+.main {
+    border: 1px solid blue;
+    min-height: 80vh;
+}
+
+.footer {
+    border: 1px solid darkblue;
+    min-height: 160px;
+}
